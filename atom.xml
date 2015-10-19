@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[SUMIT実験室]]></title>
+  <link href="http://sumisada.github.io/atom.xml" rel="self"/>
+  <link href="http://sumisada.github.io/"/>
+  <updated>2015-10-19T14:51:32+09:00</updated>
+  <id>http://sumisada.github.io/</id>
+  <author>
+    <name><![CDATA[Sumisada]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[テスト記事の2つ目]]></title>
+    <link href="http://sumisada.github.io/blog/2015/10/test-article-2/"/>
+    <updated>2015-10-19T14:26:42+09:00</updated>
+    <id>http://sumisada.github.io/blog/2015/10/test-article-2</id>
+    <content type="html"><![CDATA[<!--more-->
+
+<p><img src="http://sumisada.github.io/images/img/newspaper.png" alt=""></p>
+
+<h2>記事のテスト</h2>
+
+<p>　Octopressを使えるかどうかをテストしています。</p>
+
+<p>パーマリンクの設定が、titleしかつかえないのでちょっと困っています。
+例えば、Hugoの場合には:slugが使えるのでパーマリンクを任意に指定できます。</p>
+
+<p>rake new_postで記事を作成する際に、日本語タイトルをつかうと中国語読みとおもわれるファイル名で作成されてしまいます。</p>
+
+<p>これには驚きました。</p>
+
+<h2>おしまい</h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[最初の投稿]]></title>
+    <link href="http://sumisada.github.io/blog/2015/10/zui-chu-falsetou-gao/"/>
+    <updated>2015-10-19T11:17:04+09:00</updated>
+    <id>http://sumisada.github.io/blog/2015/10/zui-chu-falsetou-gao</id>
+    <content type="html"><![CDATA[<!--more-->
+
+<p><img src="http://sumisada.github.io/images/img/whiteflag.png" alt=""></p>
+
+<h5>あらまし</h5>
+
+<p>Octopressを使ってブログを作成しようとしています。</p>
+
+<h2>最初の記事</h2>
+
+<p>Octopressの最初の記事です。</p>
+
+<p>現状は、StackEdit-&gt;Bloggerで記事作成していますので、
+StackEditで問題なく表示できているmarkdown記述をテストにつかってみましたが、いくつか表示できない表記がみられます。</p>
+
+<h2>マークダウンのテスト</h2>
+
+<p><strong>StackEdit</strong>[^stackedit]経由でマークダウン・テキスト作成して、bloggerへ送るテストです。</p>
+
+<h3>テスト・テキスト（H3）</h3>
+
+<p>この章タイトルは、H3に変換されることを期待していますが、どのようになるのでしょうか？</p>
+
+<h4>目次(H4)</h4>
+
+<p>[TOC]</p>
+
+<p>目次はどうするの？？？</p>
+
+<h5>H5のテスト(H5)</h5>
+
+<p>H5の項は文字サイズは小さくなるのかな？</p>
+
+<h6>H6のテスト（H6）</h6>
+
+<p>小さくなるの？？？</p>
+
+<h3>Footnotes</h3>
+
+<p>You can create footnotes like this[^footnote].</p>
+
+<p>[^footnote]: Here is the <em>text</em> of the <strong>footnote</strong>.</p>
+
+<h4>テーブル</h4>
+
+<p>SmartyPants converts ASCII punctuation characters into &quot;smart&quot; typographic punctuation HTML entities. For example:</p>
+
+<p>|                  | ASCII                        | HTML              |
+ ----------------- | ---------------------------- | ------------------
+| Single backticks | <code>&#39;Isn&#39;t this fun?&#39;</code>            | &#39;Isn&#39;t this fun?&#39; |
+| Quotes           | <code>&quot;Isn&#39;t this fun?&quot;</code>            | &quot;Isn&#39;t this fun?&quot; |
+| Dashes           | <code>-- is en-dash, --- is em-dash</code> | -- is en-dash, --- is em-dash |</p>
+
+<h4>数式の表記</h4>
+
+<p>難しい数式は使えませんが、LaTeXと同じ記述がつかえるのは大変ありがたいです。</p>
+
+<p>You can render <em>LaTeX</em> mathematical expressions using <strong>MathJax</strong>, as on [math.stackexchange.com][1]:</p>
+
+<p>The <em>Gamma function</em> satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral</p>
+
+<p>$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$</p>
+
+<h4>javascriptのテスト</h4>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"&gt;&lt;/script&gt;</span></code></pre></td></tr></table></div></figure>
+
+<h4>スクリプトの表記</h4>
+
+<p>准見出しに変換されることを期待しています。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>sudo apt-get -y install rbenv
+</span><span class='line'><span class="nv">$ </span>rbenv install 2.2.3
+</span><span class='line'>...
+</span><span class='line'><span class="nv">$ </span>git clone https://...../octopress
+</span><span class='line'><span class="nv">$ </span><span class="nb">cd </span>octopress
+</span><span class='line'><span class="nv">$ </span>rbenv <span class="nb">local </span>1.9.3-p551
+</span></code></pre></td></tr></table></div></figure>
+
+<h3>フローチャートのテスト</h3>
+
+<p>HarooPadでは全く表示されなかったStackEditのサンプルフローチャートです。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>ここはエラーになりました：flowはさぽーとされていません。
+</span><span class='line'><span class="nv">st</span><span class="o">=</span>&gt;start: Start
+</span><span class='line'><span class="nv">e</span><span class="o">=</span>&gt;end
+</span><span class='line'><span class="nv">op</span><span class="o">=</span>&gt;operation: My Operation
+</span><span class='line'><span class="nv">cond</span><span class="o">=</span>&gt;condition: Yes or No?
+</span><span class='line'>
+</span><span class='line'>st-&gt;op-&gt;cond
+</span><span class='line'>cond<span class="o">(</span>yes<span class="o">)</span>-&gt;e
+</span><span class='line'>cond<span class="o">(</span>no<span class="o">)</span>-&gt;op
+</span></code></pre></td></tr></table></div></figure>
+
+<h5>書籍</h5>
+
+<div class=amazon_tag><a target="_blank" href="http://www.amazon.co.jp/GitHub%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%7EPull-Request%E3%81%AB%E3%82%88%E3%82%8B%E9%96%8B%E7%99%BA%E3%81%AE%E5%A4%89%E9%9D%A9-PRESS-plus/dp/477416366X%3FSubscriptionId%3DAKIAJ6WU5HDIG7UV7CRA%26tag%3Dsumisada-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D477416366X"><img src="http://ecx.images-amazon.com/images/I/51PjpAUHZBL._SL160_.jpg"></img></a><div class="item_detail"><a href="http://www.amazon.co.jp/GitHub%E5%AE%9F%E8%B7%B5%E5%85%A5%E9%96%80-%7EPull-Request%E3%81%AB%E3%82%88%E3%82%8B%E9%96%8B%E7%99%BA%E3%81%AE%E5%A4%89%E9%9D%A9-PRESS-plus/dp/477416366X%3FSubscriptionId%3DAKIAJ6WU5HDIG7UV7CRA%26tag%3Dsumisada-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D477416366X">GitHub実践入門 ~Pull Requestによる開発の変革 (WEB+DB ...</a><p>著者:  大塚 弘記</br>出版日:    2014-03-20</br>出版社/メーカー:  技術評論社</br>カテゴリ:   Book</br></p></div></div>
+]]></content>
+  </entry>
+  
+</feed>

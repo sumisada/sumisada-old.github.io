@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://sumisada.github.io/blog/2015/10/test-article-2/</loc>
+    <lastmod>2015-10-19T14:26:42+09:00</lastmod>
+  </url>
+  <url>
+    <loc>http://sumisada.github.io/blog/2015/10/zui-chu-falsetou-gao/</loc>
+    <lastmod>2015-10-19T11:17:04+09:00</lastmod>
+  </url>
+  <url>
+    <loc>http://sumisada.github.io/</loc>
+  </url>
+  <url>
+    <loc>http://sumisada.github.io/blog/archives/</loc>
+  </url>
+  <url>
+    <loc>http://sumisada.github.io/about/</loc>
+  </url>
+  <url>
+    <loc>http://sumisada.github.io/blog/categories/test/</loc>
+  </url>
+</urlset>
